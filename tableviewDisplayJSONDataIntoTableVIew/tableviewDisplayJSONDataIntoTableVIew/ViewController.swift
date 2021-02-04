@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  tableviewDisplayJSONDataIntoTableVIew
 //
-//  Created by Vijay on 04/02/21.
+
 //
 
 import UIKit

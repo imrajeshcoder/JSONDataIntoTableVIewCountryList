@@ -17,6 +17,9 @@
 		B1B48D1F25CC1D8000E7AD17 /* tableviewDisplayJSONDataIntoTableVIewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B48D1E25CC1D8000E7AD17 /* tableviewDisplayJSONDataIntoTableVIewUITests.swift */; };
 		B1B48D3025CC1FC900E7AD17 /* county.json in Resources */ = {isa = PBXBuildFile; fileRef = B1B48D2F25CC1FC900E7AD17 /* county.json */; };
 		B1B48D3525CC30F400E7AD17 /* usersAPI.txt in Resources */ = {isa = PBXBuildFile; fileRef = B1B48D3425CC30F400E7AD17 /* usersAPI.txt */; };
+		B1BBB83E25CD0D5D0018D0AD /* CountryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BBB83D25CD0D5D0018D0AD /* CountryCellTableViewCell.swift */; };
+		B1BBB84325CD13F80018D0AD /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BBB84225CD13F80018D0AD /* StateViewController.swift */; };
+		B1BBB84825CD14890018D0AD /* StateCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BBB84725CD14890018D0AD /* StateCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B1B48D2025CC1D8000E7AD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1B48D2F25CC1FC900E7AD17 /* county.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = county.json; sourceTree = "<group>"; };
 		B1B48D3425CC30F400E7AD17 /* usersAPI.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = usersAPI.txt; sourceTree = "<group>"; };
+		B1BBB83D25CD0D5D0018D0AD /* CountryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellTableViewCell.swift; sourceTree = "<group>"; };
+		B1BBB84225CD13F80018D0AD /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		B1BBB84725CD14890018D0AD /* StateCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				B1B48D0A25CC1D7F00E7AD17 /* Info.plist */,
 				B1B48D2F25CC1FC900E7AD17 /* county.json */,
 				B1B48D3425CC30F400E7AD17 /* usersAPI.txt */,
+				B1BBB83D25CD0D5D0018D0AD /* CountryCellTableViewCell.swift */,
+				B1BBB84225CD13F80018D0AD /* StateViewController.swift */,
+				B1BBB84725CD14890018D0AD /* StateCellTableViewCell.swift */,
 			);
 			path = tableviewDisplayJSONDataIntoTableVIew;
 			sourceTree = "<group>";
@@ -266,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1BBB83E25CD0D5D0018D0AD /* CountryCellTableViewCell.swift in Sources */,
+				B1BBB84825CD14890018D0AD /* StateCellTableViewCell.swift in Sources */,
 				B1B48D0125CC1D7D00E7AD17 /* ViewController.swift in Sources */,
 				B1B48CFD25CC1D7D00E7AD17 /* AppDelegate.swift in Sources */,
 				B1B48CFF25CC1D7D00E7AD17 /* SceneDelegate.swift in Sources */,
+				B1BBB84325CD13F80018D0AD /* StateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
